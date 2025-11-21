@@ -1,0 +1,11 @@
+# Ignore all generated simulation data
+results/*.csv
+results/*.png
+results/*.jpg
+
+# But keep the gif
+!results/*.gif
+
+# Python cache
+__pycache__/
+*.pyc
