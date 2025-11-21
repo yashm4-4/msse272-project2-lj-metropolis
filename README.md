@@ -7,8 +7,7 @@ The project includes:
 
 - A **C++ implementation** for fast simulation  
 - A **Python implementation** for analysis and visualization  
-- The original **scientific report** describing methods and results  
-- A clean project structure suitable for employers and researchers  
+- The original **scientific report** describing methods and results 
 
 ---
 
@@ -16,15 +15,15 @@ The project includes:
 
 The goal of this assignment was to explore **particle interactions and thermodynamic sampling** using the LJ potential:
 
-\[
+$$
 \phi(r) = \frac{a}{r^{12}} - \frac{b}{r^6}
-\]
+$$
 
 The Metropolis algorithm is used to probabilistically accept/reject trial moves:
 
-\[
+$$
 P(\text{accept}) = \min\left(1, \exp[-\beta \Delta U]\right)
-\]
+$$
 
 Both **random-scan** and **all-at-once** update strategies are implemented.
 
