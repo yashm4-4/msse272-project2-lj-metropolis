@@ -21,9 +21,9 @@ $$
 
 The Metropolis algorithm is used to probabilistically accept/reject trial moves:
 
-$$
-$P(\text{accept}) = \min(1,\, e^{-\beta \Delta U})$
-$$
+<p align="center">
+  $P(\text{accept}) = \min(1,\, e^{-\beta \Delta U})$
+</p>
 
 Both **random-scan** and **all-at-once** update strategies are implemented.
 
